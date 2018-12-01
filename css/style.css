@@ -1,0 +1,91 @@
+.navbar{
+    background-color:white;
+    border-bottom:1px solid gray; 
+    max-height: 100px;
+    padding-left:80px;
+ 
+}
+
+.navbar li{
+  padding: 30px;
+  
+}
+
+
+.carousel-inner .carousel-item {
+    height:400px;}
+    
+
+  .logo{
+      width: auto;
+        height: 190px;
+
+  }
+   li:hover{
+       background:grey;
+      border-bottom:1px solid black; 
+      
+
+
+      }
+      /* a.ex1:hover, a.ex1:active {color: red;}*/
+
+      
+
+       
+
+   
+ 
+
+    #jumbotron{
+        margin-top: 20px;
+        padding: 20px;
+    }
+  
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin:40px;
+        
+  
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    background-size: contain;
+
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+     }
+  
+  }
+.container-fluid{
+  background: gray;
+}
+  .container {
+    padding: 16px;
+   }
+   .card + .card {
+    margin: 0 0 0 140px;
+    width: auto;
+   }
+
+
+   
